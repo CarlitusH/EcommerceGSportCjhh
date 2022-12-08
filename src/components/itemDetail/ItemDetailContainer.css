@@ -1,0 +1,48 @@
+.appDetailProduct{
+    max-width: 1200px;
+    width: 100%;
+    margin: 100px auto;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.detailsBodyProduct{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px 0;
+
+}
+
+.detailsBodyProduct .imgProduct{
+    max-width: 500px;
+    min-width: 290px;
+    overflow: hidden;
+    margin: 25px;
+
+}
+
+.imgProduct img{
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
+    display: block;
+    object-fit: cover;
+}
+
+.detailsBodyProduct .contenidoProduct{
+    max-width: 500px;
+    min-width: 290px;
+    margin: 25px;
+}
+
+.contenidoProduct .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+}
+
+.contenidoProduct .row h2 h3{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
